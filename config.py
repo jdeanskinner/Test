@@ -1,5 +1,5 @@
 # config.py
 DB_HOST = 'localhost'
-DB_USER = 'your-db-user'
-DB_PASSWORD = 'your-db-password'
-DB_NAME = 'your-database-name'
+DB_USER = 'webuser'            # Your DB username
+DB_PASSWORD = 'webpassword'    # Your DB password
+DB_NAME = 'webserver_test'     # Your DB name
