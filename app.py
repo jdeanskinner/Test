@@ -8,9 +8,9 @@ app = Flask(__name__)
 def get_db_connection():
     return mysql.connector.connect(
         host='localhost',
-        user='your-db-user',
-        password='your-db-password',
-        database='your-database-name'
+        user='webuser',           # Your DB username
+        password='webpassword',   # Your DB password
+        database='webserver_test' # The database name
     )
 
 @app.route('/')
